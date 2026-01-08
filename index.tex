@@ -6,7 +6,7 @@
 
 \title{Vikrom's CV}
 \fullname{Vikrom}{Narula}{}
-\cvtitle{Programmer, Learner, Problem Solver}
+\cvtitle{Software Engineer, Learner, Problem Solver}
 \website{https://narula2000.github.io}{narula2000}
 \email{vikrom.nar@gmail.com}
 \github{https://github.com/narula2000}{GitHub}
@@ -16,9 +16,18 @@
 
 \begin{document}
 \section{Experiences}
-\combosection{\href{https://www.manatal.com/}{Manatal}}{Full-time, Junior Backend Software Engineer}{Django.js, Python, FastAPI, Docker, PostgreSQL}{Sep 2024-Present}{
+\combosection{\href{https://www.manatal.com/}{Manatal}}{Full-time, Junior Backend Engineer}{Django.js, Python, FastAPI, PostgreSQL}{Sep 2024-Present}{
   \begin{tightlist}
-    \item Dockerize and deploy candle stick data aggregation service.
+    \item Owner of multiple micro-service such as, Webhook event distributor, Resume parser.
+    \item Lead and implement a logging system for micro-service with Datadog integration.
+    \item Lead, design and implement a library to generate notification and transactional emails.
+    \item Modernize email to new template via Jinja hydration.
+    \item Push and lead the project on standardizing linting for backend micro-service, and set up pre-commit hooks.
+    \item Improve local development via dockerization of multiple services, updating \& maintaining a mocking server.
+    \item Optimize dashboard page load speed by 40\% via endpoint pruning and optimization.
+    \item Optimize slowest endpoint on multiple micro-service.
+    \item Create a backfill script for missing key client data from information extracted via history logs.
+    \item Generate and maintain weekly engineering reports.
   \end{tightlist}
 }
 
@@ -63,21 +72,14 @@
 
 \section{Projects}
 \combosection{\href{https://github.com/narula2000/crypto-watcher}{Crypto Currency Analyser}}
+\combosection{\href{https://github.com/narula2000/wc}{Replicate wc Unix Command}}
+{Python, Unix, CLI}{}{}{
+  \indent Create a replication of the Unix command wc via Python.
+}
+
 {Python, Pandas, BeautifulSoup}{}{}{
   \indent Scrap top market capitalization crypto currency to compare current price
   with average price within some time gap and show percentage change.
-}
-
-\combosection{\href{https://github.com/narula2000/GolfTournament-Webapp}{Golf Tournament Application}}
-{Node.js, JavaScript, React, React Native, Firebase, Chakra}{}{}{
-  \indent Create a tournament application for competitor to keep of theirs and
-  opponent scorecard, with easy to use scorecard and intuitive scorecard display.
-}
-
-\combosection{\href{https://github.com/narula2000/BTS-MRT-Transportation-API}{Public Transportation API: BTS \& MRT map API}}
-{Python, Django, Docker}{}{}{
-  \indent Create API for user to query to path between two stations across BTS
-  and MRT, by using graphs and DFS.
 }
 
 \vspace{\topsep}
@@ -85,8 +87,7 @@
 \combosection{Programming}{}{}{}{
   \begin{tightlist}
     \item Python (5+ years)
-    \item JavaScript/TypeScript (3+ years)
-    \item Basic - Rust, Scala, SQL, R, HTML, CSS
+    \item Basic: Rust, SQL, R, HTML, CSS
   \end{tightlist}
 }
 
