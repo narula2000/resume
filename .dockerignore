@@ -1,0 +1,10 @@
+.git
+.gitignore
+*.pdf
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv

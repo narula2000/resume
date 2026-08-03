@@ -126,10 +126,10 @@
       \Large\addfontfeatures{Color=linktext}{~|}
       \light\large{#2}
         \if\relax\detokenize{#3}\relax
-          &\light\normalsize{#3}
+          \light\normalsize{#3}
         \else
           \Large\addfontfeatures{Color=linktext}{~|}
-          &\light\normalsize{#3}
+          \light\normalsize{#3}
         \fi
     \fi
     \hfill{#4}
@@ -226,7 +226,7 @@
     \pagestyle{fancy}
     \fancyhead{}
     \fancyfoot[C]{\footnotesize\light\comcv@firstname's Résumé, \comcv@date, \href{https://raw.githubusercontent.com/narula2000/resume/main/resume.pdf}{Download Résumé}} % footer text
-    \fancyfoot[R]{\raggedleft\footnotesize\comcv@page} % page number and page link
+    \fancyfoot[R]{\raggedleft\footnotesize\thepage} % page number
     \renewcommand{\headrulewidth}{0em}
     \setlength\footskip{\baselineskip}
 }
